@@ -32,10 +32,12 @@ export default function Works() {
           <img src={pizzaMenu} alt="project2-img" />
           <div className="project-btns">
             <button type="click">
-              <a href="https://github.com/dishantshinde">Source code</a>
+              <a href="https://github.com/dishantshinde/Pizza-menu.git">
+                Source code
+              </a>
             </button>
             <button type="click">
-              <a href="https://flashcardbydss.netlify.app/">view site</a>
+              <a href="https://pizza-menudss.netlify.app/">view site</a>
             </button>
           </div>
         </div>
