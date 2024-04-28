@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import "./navbar.css";
-import logo from "../../assets/logo.png";
 import { Link } from "react-scroll";
 import contactImg from "../../assets/contact.png";
 import menu from "../../assets/menu.png";
+import dishantLogo from "../../assets/dishant logo 4.png";
 export default function Navbar() {
   const [showMenu, setshowMenu] = useState(false);
   return (
     <nav className="navbar">
-      <img src={logo} alt="logo" className="logo" />
+      <img src={dishantLogo} alt="logo" className="logo" />
       <div className="desktopMenu">
         <Link
           activeClass="active"
@@ -26,7 +26,7 @@ export default function Navbar() {
           to="skills"
           spy={true}
           smooth={true}
-          offset={-50}
+          offset={-70}
           duration={500}
           className="desktopMenuListItem link"
         >
@@ -37,7 +37,7 @@ export default function Navbar() {
           to="works"
           spy={true}
           smooth={true}
-          offset={-50}
+          offset={-70}
           duration={500}
           className="desktopMenuListItem link"
         >
@@ -45,21 +45,21 @@ export default function Navbar() {
         </Link>
         <Link
           activeClass="active"
-          to="clients"
+          to="contactPage"
           spy={true}
           smooth={true}
-          offset={-50}
+          offset={-70}
           duration={500}
           className="desktopMenuListItem link"
         >
-          Clients
+          Resume
         </Link>
       </div>
       <button
         className="desktopMenuBtn"
         onClick={() => {
           document
-            .getElementById("contact")
+            .getElementById("contactPage")
             .scrollIntoView({ behavior: "smooth" });
         }}
       >

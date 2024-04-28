@@ -5,6 +5,7 @@
   max-width: 75rem;
   margin: 0 auto;
   padding: 1rem 2rem;
+  border-radius: 5px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -13,9 +14,9 @@
   z-index: 3;
 }
 .logo {
-  object-fit: cover;
-  height: 3rem;
-  width: 4rem;
+  height: auto;
+  width: 7rem;
+  padding-bottom: 3px;
 }
 .desktopMenuListItem {
   margin: 1rem;

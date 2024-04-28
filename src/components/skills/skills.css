@@ -1,5 +1,4 @@
 #skills {
-  overflow: hidden;
   width: 100vw;
   max-width: 65rem;
   display: flex;
@@ -12,7 +11,6 @@
 .skillTitle {
   font-size: 3rem;
   font-weight: 600;
-  padding-top: 3rem;
   margin-bottom: 1.5rem;
 }
 .skillDesc {
@@ -44,9 +42,70 @@
   font-size: 0.9rem;
   font-weight: 200;
 }
+.tech-skills-cont {
+  margin: 1rem;
+  width: 100vw;
+  max-width: 80%;
+}
+.tech-skills-cont h2 {
+  margin-bottom: 10px;
+}
+.tech-skills {
+  display: flex;
+  justify-content: space-evenly;
+}
+.tech-skill {
+  background: rgb(50, 50, 50);
+  padding: 20px;
+  border-radius: 5px;
+  margin: 5px;
+  max-width: 370px;
+  width: 100%;
+}
+.tech-skill h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  white-space: nowrap;
+}
+.ordered-list {
+  padding-left: 10px;
+  list-style-type: none;
+  text-align: left;
+}
+.ordered-list li a {
+  font-size: 16px;
+  color: white;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.ordered-list li a:hover {
+  color: yellow;
+  background: rgb(65, 65, 65);
+}
+.tech-skill ol li {
+  margin-bottom: 10px;
+}
+.tech-skill ol li img {
+  margin-left: auto;
+  margin-right: 10px;
+  object-fit: cover;
+  width: 30px;
+}
+.ordered-list.backend img {
+  object-fit: cover;
+  height: 30px;
+  width: auto;
+}
 @media screen and (max-width: 720px) {
   .skillBarText > p {
     font-size: 2vw;
+  }
+}
+@media screen and (max-width: 750px) {
+  .tech-skills {
+    flex-wrap: wrap;
   }
 }
 @media screen and (max-width: 480px) {

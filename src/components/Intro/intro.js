@@ -24,7 +24,11 @@ export default function Intro() {
           </button>
         </Link>
       </div>
-      <img src={Image} alt="Profile" className="bg" />
+      <img
+        src="https://img.freepik.com/premium-photo/business-visual-data-analyzing-technology-by-creative-computer-software_31965-17503.jpg?w=1060"
+        alt="Profile"
+        className="bg"
+      />
     </section>
   );
 }

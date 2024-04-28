@@ -1,11 +1,8 @@
 import React from "react";
 import "./works.css";
-import Portfolio1 from "../../assets/portfolio-1.png";
-import Portfolio2 from "../../assets/portfolio-2.png";
-import Portfolio3 from "../../assets/portfolio-3.png";
-import Portfolio4 from "../../assets/portfolio-4.png";
-import Portfolio5 from "../../assets/portfolio-5.png";
-import Portfolio6 from "../../assets/portfolio-6.png";
+import flashcardImg from "../../assets/flashcard ss.png";
+import pizzaMenu from "../../assets/pizza menu ss.png";
+import farAway from "../../assets/travel-list ss.png";
 
 export default function Works() {
   return (
@@ -16,13 +13,44 @@ export default function Works() {
         my work is pixel perfect.I am excited to bring my skills and experiences
         to help businesses achieve their goals and make strong online presence.
       </span>
+      <span className="project-title">My projects</span>
       <div className="worksImgs">
-        <img src={Portfolio1} alt="" className="worksImg" />
-        <img src={Portfolio2} alt="" className="worksImg" />
-        <img src={Portfolio3} alt="" className="worksImg" />
-        <img src={Portfolio4} alt="" className="worksImg" />
-        <img src={Portfolio5} alt="" className="worksImg" />
-        <img src={Portfolio6} alt="" className="worksImg" />
+        <div className="my-project">
+          <span>Flashcard generator</span>
+          <img src={flashcardImg} alt="project1-img" />
+          <div className="project-btns">
+            <button type="click">
+              <a href="https://github.com/dishantshinde">Source code</a>
+            </button>
+            <button type="click">
+              <a href="https://flashcardbydss.netlify.app/">view site</a>
+            </button>
+          </div>
+        </div>
+        <div className="my-project">
+          <span>Pizza menu</span>
+          <img src={pizzaMenu} alt="project2-img" />
+          <div className="project-btns">
+            <button type="click">
+              <a href="https://github.com/dishantshinde">Source code</a>
+            </button>
+            <button type="click">
+              <a href="https://flashcardbydss.netlify.app/">view site</a>
+            </button>
+          </div>
+        </div>
+        <div className="my-project">
+          <span>Far away</span>
+          <img src={farAway} alt="project3-img" />
+          <div className="project-btns">
+            <button type="click">
+              <a href="https://github.com/dishantshinde">Source code</a>
+            </button>
+            <button type="click">
+              <a href="https://flashcardbydss.netlify.app/">view site</a>
+            </button>
+          </div>
+        </div>
       </div>
       <button className="worksBtn">See more</button>
     </section>
