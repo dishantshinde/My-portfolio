@@ -27,6 +27,11 @@
   padding-bottom: 0.5rem;
   border-bottom: 1px solid yellow;
 }
+.desktopMenuListItem.link.active {
+  color: yellow;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid yellow; /* Or the desired color for the active state */
+}
 .desktopMenuBtn {
   background: white;
   color: black;
@@ -42,11 +47,7 @@
   width: 1rem;
   margin: 1rem;
 }
-.active {
-  color: yellow;
-  padding-bottom: 0.5rem;
-  border-bottom: 3px solid;
-}
+
 .mobMenu {
   display: none;
   object-fit: cover;

@@ -90,7 +90,7 @@ export default function Navbar() {
           to="skills"
           spy={true}
           smooth={true}
-          offset={-50}
+          offset={-70}
           duration={500}
           className="listItem"
           onClick={() => setshowMenu(false)}
@@ -102,7 +102,7 @@ export default function Navbar() {
           to="works"
           spy={true}
           smooth={true}
-          offset={-50}
+          offset={-70}
           duration={500}
           className="listItem"
           onClick={() => setshowMenu(false)}
@@ -114,7 +114,7 @@ export default function Navbar() {
           to="clients"
           spy={true}
           smooth={true}
-          offset={-50}
+          offset={-70}
           duration={500}
           className="listItem"
           onClick={() => setshowMenu(false)}
@@ -126,7 +126,7 @@ export default function Navbar() {
           to="contact"
           spy={true}
           smooth={true}
-          offset={-50}
+          offset={-70}
           duration={500}
           className="listItem"
           onClick={() => setshowMenu(false)}

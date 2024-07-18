@@ -3,6 +3,7 @@ import "./works.css";
 import flashcardImg from "../../assets/flashcard ss.png";
 import pizzaMenu from "../../assets/pizza menu ss.png";
 import farAway from "../../assets/travel-list ss.png";
+import eatnsplit from "../../assets/eat-n-split.png";
 
 export default function Works() {
   return (
@@ -50,6 +51,20 @@ export default function Works() {
             </button>
             <button type="click">
               <a href="https://flashcardbydss.netlify.app/">view site</a>
+            </button>
+          </div>
+        </div>
+        <div className="my-project">
+          <span>eat-n-split</span>
+          <img src={eatnsplit} alt="project3-img" />
+          <div className="project-btns">
+            <button type="click">
+              <a href="https://github.com/dishantshinde/eat-split-bill.git">
+                Source code
+              </a>
+            </button>
+            <button type="click">
+              <a href="https://eat-splitbydss.netlify.app/">view site</a>
             </button>
           </div>
         </div>

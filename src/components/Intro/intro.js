@@ -3,6 +3,7 @@ import "./intro.css";
 import Image from "../../assets/image.png";
 import { Link } from "react-scroll";
 import Btnimg from "../../assets/hireme.png";
+
 export default function Intro() {
   return (
     <section id="intro">
@@ -17,7 +18,13 @@ export default function Intro() {
           I am a skilled web designer with experience in creating <br />
           visually appealing web sites
         </p>
-        <Link>
+        <Link
+          to="contactPage"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
           <button className="btn">
             <img src={Btnimg} alt="Hire me" className="btnImg" />
             Hire me
