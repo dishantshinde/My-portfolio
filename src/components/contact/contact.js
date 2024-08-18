@@ -24,7 +24,7 @@ export default function Contact() {
           and experiences.
         </p>
         <a
-          href={`${process.env.PUBLIC_URL}/resume/resume dss latest.pdf`}
+          href={`${process.env.PUBLIC_URL}/resume/resume.pdf`}
           download="Resume.pdf"
         >
           Click here to download
