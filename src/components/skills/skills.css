@@ -112,9 +112,18 @@
   .skillBarText > p {
     font-size: 3vw;
   }
+  .skillBars {
+    max-width: 90vw;
+  }
+  .skillBar {
+    flex-direction: column;
+    align-items: center;
+  }
   .skillBar img {
     height: 2.25rem;
     width: 2.25rem;
+    margin-right: 0;
+    margin-bottom: 0.5rem;
   }
   .skillBarText > h2 {
     font-size: 5vw;
